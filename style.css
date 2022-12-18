@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 32px;
+}    
+
+.left-header {
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+.right-header li {
+    display: inline-block;
+}
+.right-header ul {
+    list-style: none;
+}
+
+.right-header a {
+    text-decoration: none;
+}
+
+.content1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 400px;
+    display: flex;
+    /* justify content center & align-items required for button height*/
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 32px;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+}
+
+.content-right img {
+    height: 300px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+
+.content2 img {
+    max-width: 200px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 24px;
+}
+
+.locations {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 32px;
+    
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 96px;
+    color: #1f2937;
+}
+
+.content3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.main {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+.signature {
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #f9faf8;
+    margin: 96px 100px;
+    padding: 32px 96px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
