@@ -3,9 +3,6 @@ body {
     flex-direction: column;
 }
 
-img {
-
-}
 .header {
     display: flex;
     background-color: #1F2937;
