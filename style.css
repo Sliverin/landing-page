@@ -90,8 +90,6 @@ button {
 
 .locations {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
     gap: 32px;
     
 }
